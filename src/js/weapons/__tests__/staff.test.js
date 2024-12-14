@@ -1,5 +1,5 @@
 
-import { Staff } from '../weapons/Staff';
+import { Staff } from '../Staff';
 
 describe('staff', () => {
 
