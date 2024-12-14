@@ -1,5 +1,5 @@
 
-import { LongBow } from '../weapons/LongBow';
+import { LongBow } from '../LongBow';
 
 describe('longBow', () => {
 

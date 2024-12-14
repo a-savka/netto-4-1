@@ -1,5 +1,5 @@
 
-import { StormStaff } from '../weapons/StormStaff';
+import { StormStaff } from '../StormStaff';
 
 describe('stormStaff', () => {
 

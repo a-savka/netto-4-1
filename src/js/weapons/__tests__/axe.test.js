@@ -1,5 +1,5 @@
 
-import { Axe } from '../weapons/Axe';
+import { Axe } from '../Axe';
 
 describe('axe', () => {
 
