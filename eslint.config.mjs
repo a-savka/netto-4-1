@@ -24,6 +24,10 @@ export default [
     }
   },
   {
-    ignores: ["dist/", "*.mjs"],
+    ignores: [
+      "dist/",
+      "*.mjs",
+      "webpack.config.js"
+    ],
   }
 ];
