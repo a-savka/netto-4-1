@@ -5,8 +5,8 @@ import { Knife } from '../weapons/Knife';
 
 export class Warrior extends Player {
 
-  constructor(position, name) {
-    super(position, name);
+  constructor(position, name, logger) {
+    super(position, name, logger);
     this.life = 120;
     this.initialLife = 120;
     this.speed = 2;

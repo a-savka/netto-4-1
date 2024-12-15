@@ -3,7 +3,7 @@ body {
   color: #999;
 }
 
-actions {
+.actions {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -19,6 +19,7 @@ button {
   border-radius: 0.25rem;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
+  margin-right: 10px;
 }
 
 button:hover {
@@ -27,4 +28,12 @@ button:hover {
 
 button:active {
   transform: scale(0.98);
+}
+
+.message.green {
+  color: darkcyan;
+}
+
+.message.red {
+  color: firebrick;
 }
