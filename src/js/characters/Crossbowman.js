@@ -5,8 +5,8 @@ import { Knife } from '../weapons/Knife';
 
 export class Crossbowman extends Archer {
 
-  constructor(position, name) {
-    super(position, name);
+  constructor(position, name, logger) {
+    super(position, name, logger);
     this.life = 85;
     this.initialLife = 85;
     this.attack = 8;

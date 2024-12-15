@@ -5,8 +5,8 @@ import { Knife } from '../weapons/Knife';
 
 export class Mage extends Player {
 
-  constructor(position, name) {
-    super(position, name);
+  constructor(position, name, logger) {
+    super(position, name, logger);
     this.life = 70;
     this.initialLife = 70;
     this.magic = 100;

@@ -5,8 +5,8 @@ import { Knife } from '../weapons/Knife';
 
 export class Demourge extends Mage {
 
-  constructor(position, name) {
-    super(position, name);
+  constructor(position, name, logger) {
+    super(position, name, logger);
     this.life = 80;
     this.initialLife = 80;
     this.magic = 120;

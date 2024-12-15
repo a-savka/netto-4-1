@@ -5,8 +5,8 @@ import { Knife } from '../weapons/Knife';
 
 export class Dwart extends Warrior {
 
-  constructor(position, name) {
-    super(position, name);
+  constructor(position, name, logger) {
+    super(position, name, logger);
     this.life = 130;
     this.initialLife = 130;
     this.attack = 15;
