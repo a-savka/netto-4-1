@@ -21,10 +21,11 @@ export class Dwart extends Warrior {
 
   takeDamage(damage) {
     this.hitCount++;
+    let takenDamage = damage;
     if (this.hitCount % 6 === 0 && this.getLuck() > 0.5) {
-      damage = damage / 2;
+      takenDamage = takenDamage / 2;
     }
-    super.takeDamage(damage);
+    super.takeDamage(takenDamage);
   }
 
 }

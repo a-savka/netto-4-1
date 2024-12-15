@@ -8,7 +8,7 @@ import { Warrior } from './characters/Warrior';
 
 export function play() {
   
-  const players = [
+  let players = [
     new Archer(1, 'Леголас'),
     new Crossbowman(8, 'Мухаэлим'),
     new Demourge(5, 'Гендальф'),
