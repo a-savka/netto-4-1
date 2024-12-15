@@ -22,6 +22,8 @@ export class Player {
   }
 
   get weapon() {
+    // Реализует логику смены оружия когда текущее ломаается
+    // Поэтому делать метод checkWeapon необходимости нет
     for (let currentWeapon of this.weapons) {
       if (!currentWeapon.isBroken()) {
         return currentWeapon;
