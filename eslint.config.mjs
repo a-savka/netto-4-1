@@ -27,7 +27,8 @@ export default [
     ignores: [
       "dist/",
       "*.mjs",
-      "webpack.config.js"
+      "webpack.config.js",
+      "**/__tests__"
     ],
   }
 ];
