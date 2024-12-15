@@ -181,8 +181,7 @@ describe('Player', () => {
       const players = [ player, player2, player3 ];
       const choosen = player.turn(players);
       expect(player.position).toBe(11);
-  });
-
+    });
 
   });
 });
